@@ -1,0 +1,107 @@
+body{
+    background-image: url(name.webp);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-y:hidden;
+    position: relative;
+  }
+h1{
+    color:white;
+    font-size: 40px;
+    padding-left: 20px;
+}
+h2{
+  color:blue;
+  text-align: center;
+}
+.father{
+  background-color: white;
+  border-radius: 20px;
+  height: 600px;
+  width: 30%;
+  padding: 3px 2px 3px 3%;
+  opacity: 0.8;
+  position: absolute;
+  left: 30%;
+}
+.father .face{
+    background-color: white;
+    border-radius: 47px;
+    height: 540px;
+    width: 90%;
+  box-shadow: 3px 3px 10px 3px ;
+}
+.father .face h1
+{
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+  padding: 35px 0 16px 0;
+  text-transform: capitalize;
+}
+input{
+  width: 85%;
+  padding: 15px 0 15px 53px;
+  margin: 0 10px 20px;
+  border: 1px solid ;
+  outline: none;
+  border-radius: 19px;
+ 
+}
+.father .face i{
+  
+  font-size: 29px;
+  position: absolute;
+  left: 77px;
+  top: 38%;
+}
+#i2 {top: 298px;}
+.father .face h2{
+  padding:  0 20px 0;
+  text-align: center;
+}
+.father .face button
+{
+  display: block;
+  padding: 12px 36px;
+  margin-left: 36%;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius:50px;
+  font-size: large;
+  margin-bottom: 20px;
+}
+.father .face a{
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+  padding: 0 0 0 98px;
+}
+.top-right
+{
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  color: white;
+  font-size: 26px;
+}
+.list
+{
+  height: 100%;
+  float: right;
+  width: 20%;
+  background-color: skyblue;
+  position: relative;
+  top: -99px;
+  right: -7px;
+  opacity: 0.7;
+  text-align: center;
+}
+.list ul{margin-top: 136px;font-size: 27px;}
+.list ul li{list-style: none;    padding-bottom: 10px;}
+.list ul li a {text-decoration: none;}
